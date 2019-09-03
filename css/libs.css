@@ -1,0 +1,51 @@
+html {
+  font-size: 62.5%;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+ul {
+  list-style: none;
+  list-style-position: inside;
+}
+li {
+  line-height: 1.429;
+}
+p {
+  line-height: 1.429;
+  margin-bottom: 20px;
+}
+h1, h2, h3 {
+  font-weight: normal;
+}
+h1 {
+  font-size: 60px ;
+  font-size: 6rem;
+}
+h2 {
+  font-size: 50px;
+  font-size: 5rem;
+}
+h3 {
+  font-size: 40px;
+  font-size: 4rem;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+select {
+  outline: none;
+  border: 0;
+}
+select:hover {
+  color: #d85486;
+}
+button {
+  border: 0;
+}
+label, button, select {
+  cursor: pointer;
+}
