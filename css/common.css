@@ -13,19 +13,18 @@ clear: both;
 }
 body {
   line-height: 1;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
   overflow-x: hidden;
 }
-.title {
-  padding: 15px 0;
-  text-align: center;
+main {
+  padding: 0;
+  font-family: avenir_roman_font_download,sans-serif;
 }
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  max-width: 1180px;
+  padding: 0 15px;
+  max-width: 970px;
 }
