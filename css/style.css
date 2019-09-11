@@ -112,7 +112,6 @@ header {
   border: 1px solid #a3d900;
   border-bottom: 4px solid #5c8000;
   background-color: #a3d900;
-  animation: heartbeat 5s ease 0s infinite normal;
 }
 @media (min-width: 768px) {
   .section-1 .button a {
@@ -435,6 +434,7 @@ footer {
   text-align: center;
 }
 .social-ft {
+  border-bottom-right-image: none;
   margin-bottom: 10px;
 }
 .social-ft li {
