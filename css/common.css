@@ -18,13 +18,19 @@ body {
   font-size: 1.6rem;
   overflow-x: hidden;
 }
-main {
-  padding: 0;
-  font-family: avenir_roman_font_download,sans-serif;
-}
 .container {
   margin-right: auto;
   margin-left: auto;
   padding: 0 15px;
   max-width: 970px;
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1040px;
+  }
 }
