@@ -1,15 +1,10 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 .container:before,
 .container:after,
 .clearfix:before,
 .clearfix:after {
-content: "";
-display: table;
-clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 body {
   line-height: 1;
