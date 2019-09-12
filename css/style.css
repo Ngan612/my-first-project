@@ -92,7 +92,7 @@ header {
   margin-bottom: 10px;
   padding: 0;
   font-size: 2.7rem;
-  font-family: PlayfairDisplayRegular;
+  font-family: "PlayfairDisplayRegular", Times, serif;
   letter-spacing: 1px;
 }
 .section-1 .video-wrap {
@@ -133,7 +133,7 @@ header {
 .section-2 .title {
   margin-bottom: 50px;
   font-size: 2.2rem;
-  font-family: PlayfairDisplayRegular;
+  font-family: "PlayfairDisplayRegular", Times, serif;
   letter-spacing: 1px;
   line-height: 1.2;
   text-align: center;
@@ -185,7 +185,7 @@ header {
 .section-3 .title {
   font-size: 2.3rem;
   margin-bottom: 20px;
-  font-family: PlayfairDisplayRegular;
+  font-family: "PlayfairDisplayRegular", Times, serif;
   letter-spacing: 1px;
 }
 @media (min-width: 768px) {
@@ -273,7 +273,7 @@ header {
   padding: 20px 0 10px;
   margin-bottom: 20px;
   font-size: 2.5rem;
-  font-family: PlayfairDisplayRegular;
+  font-family: "PlayfairDisplayRegular", Times, serif;
   text-align: center;
 }
 .section-4 .thumb {
@@ -433,8 +433,11 @@ footer {
   padding: 20px 0 100px;
   text-align: center;
 }
+.footer-ft a {
+  color: #333;
+  text-decoration: none;
+}
 .social-ft {
-  border-bottom-right-image: none;
   margin-bottom: 10px;
 }
 .social-ft li {
@@ -442,9 +445,8 @@ footer {
   padding-right: 10px;
   font-size: 3rem;
 }
-.footer-ft a {
-  color: #333;
-  text-decoration: none;
+.social-ft a:hover {
+  color: #0dafc3;
 }
 .nav-footer {
   font-size: 12px;
@@ -455,10 +457,14 @@ footer {
   padding-right: 5px;
   list-style-type: none;
   border-right: 1px solid #333;
+  transition: all .3s ease;
 }
 .nav-footer li:last-child {
   padding-right: 0;
   border-right: none;
+}
+.nav-footer a:hover {
+  text-decoration: underline;
 }
 .address-footer {
   margin-bottom: 10px;
